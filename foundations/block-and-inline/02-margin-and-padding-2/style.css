@@ -1,20 +1,33 @@
 body {
-  background: gray;
-  font-family: sans-serif;
+	background: gray;
+	font-family: sans-serif;
 }
 
 .card {
-  width: 400px;
-  background: white;
-  margin: 16px auto;
+	width: 400px;
+	background: white;
+	margin: 16px auto;
+	padding: 20px 5px 5px;
 }
 
 .title,
 .content,
 .button-container {
-  background: dodgerblue;
+	background: dodgerblue;
+	margin: 10px;
+	padding: 10px;
+}
+
+.button-container {
+	text-align: center;
 }
 
 button {
-  background: white;
+	background: white;
+	display: block;
+	margin: 0 auto;
 }
+
+/* Solution notes 
+  I had to use solution to get the button-container to look the way the goal looked.  I didn't know the amount of "freedom" I had to make changes to make it look that way.  I tried to not create another selector, but it wouldn't work.
+*/
