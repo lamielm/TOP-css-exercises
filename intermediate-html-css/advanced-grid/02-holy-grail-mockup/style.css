@@ -19,9 +19,10 @@
   background-color: #393f4d;
 }
 
-.menu ul,
-.menu li {
+.nav ul,
+.menu ul {
   font-size: 16px;
+  list-style-type: none;
 }
 
 .sidebar {
@@ -49,7 +50,6 @@
 }
 
 .nav ul li {
-  font-size: 16px;
   text-transform: uppercase;
 }
 

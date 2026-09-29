@@ -1,27 +1,20 @@
 body {
-  background: #eee;
+  background: gray;
   font-family: sans-serif;
 }
 
 .card {
   width: 400px;
-  background: #fff;
+  background: white;
   margin: 16px auto;
 }
 
-.title {
-  background: #e3f4ff;
-}
-
-.content {
-  background: #e3f4ff;
-}
-
+.title,
+.content,
 .button-container {
-  background: #e3f4ff;
+  background: dodgerblue;
 }
 
 button {
   background: white;
-  border: 1px solid #eee;
 }
