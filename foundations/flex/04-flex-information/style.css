@@ -1,26 +1,39 @@
 body {
-  font-family: 'Courier New', Courier, monospace;
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
 }
 
 img {
-  width: 100px;
-  height: 100px;
+	width: 100px;
+	height: 100px;
 }
 
 .title {
-  font-size: 36px;
-  font-weight: 900;
+	font-size: 36px;
+	font-weight: 900;
+	margin: 0 0 32px 0;
+}
+
+.container {
+	display: flex;
+	justify-content: space-evenly;
+	/* align-items: center; */
+	gap: 52px;
+}
+
+.plant {
+	max-width: 200px; /* Didn't have this one, this avoids the text from becoming single long lines... */
 }
 
 /* do not edit this footer */
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #eee;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 52px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #eee;
 }
